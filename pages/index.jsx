@@ -1,10 +1,11 @@
 import Head from 'next/head';
-import DarkModeSwitch from '../components/DarkModeSwitch';
+import Container from '../components/Container';
+import { Text } from '@chakra-ui/react';
 
 export default function Home() {
   return (
-    <>
-      <DarkModeSwitch />
-    </>
+    <Container>
+      <Text>test</Text>
+    </Container>
   );
 }
