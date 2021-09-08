@@ -18,12 +18,11 @@ export default function Home() {
         as="main"
         spacing={8}
         justifyContent="center"
-        alignItems="flex-start"
         m="0 auto 4rem auto"
         px={2}
         maxWidth={700}
       >
-        <Flex flexDirection="column" maxWidth={700}>
+        <Flex flexDirection="column" maxWidth={700} px={4}>
           <Heading mb={2}>Hi, I&apos;m Paul Coffman Jr.</Heading>
           <Text color={colorSecondary[colorMode]}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante
