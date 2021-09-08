@@ -18,7 +18,7 @@ const BlogLayout = ({ children, frontMatter }) => {
     light: 'gray.700',
     dark: 'gray.400',
   };
-  const slug = router.asPath.replace('/blog', '');
+  const slug = router.asPath.replace('/blog/', '');
 
   return (
     <Container>
