@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <title>Home - Personal Site</title>
+        <title>Home - Personal Web Site</title>
       </Head>
       <Stack
         as="main"

@@ -27,7 +27,7 @@ const BlogPage = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>Blog - Personal Site</title>
+        <title>Blog - Personal Web Site</title>
       </Head>
       <Container>
         <Stack

@@ -4,11 +4,11 @@ import BlogLayout from '../../layouts/blog';
 import MDXComponents from '../../components/MDXComponents';
 
 const Blog = ({ mdxSource, frontMatter }) => {
-  const content = MDXRemote(mdxSource, {
-    components: MDXComponents,
-  });
-
-  return <BlogLayout frontMatter={frontMatter}>{content}</BlogLayout>;
+  return (
+    <BlogLayout frontMatter={frontMatter}>
+      <MDXRemote {...mdxSource} components={MDXComponents} />
+    </BlogLayout>
+  );
 };
 
 export const getStaticPaths = async () => {
